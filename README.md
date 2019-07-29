@@ -6,7 +6,7 @@ In the paper mentioned above, the author shows that $L_2$ regularization and wei
 
 And most current implementation of Adam take the approach of $L_2$ . So we need to fix it with normal weight decay approach.
 
-Notice that if you do **not use weight decay** ( weight_decay == 0), this bug is free for you.
+Note that if you do **not use weight decay** ( weight_decay == 0), this bug is free for you.
 
 
 
