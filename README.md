@@ -1,3 +1,5 @@
+# Note that the pytorch has its official AdamW now. Please check the pytorch documents
+
 ## Introduction
 
 Experiment on AdamW described in [*Fixing Weight Decay Regularization in Adam*](https://arxiv.org/abs/1711.05101) , which analyzed the implementations on current framework and point out a bug. Then they proposed **AdamW** to figure out this bug. 
